@@ -1,0 +1,220 @@
+.App {
+  text-align: center;
+  
+  
+}
+body{
+  background-color: white;
+}
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.Navbar{
+  margin: 20px;
+}
+.Nav{
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* .shadow {
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+} */
+
+img.icon1{
+  height: 27px;
+  width: auto;
+  margin-right: 16px;
+  margin-top: 1px;
+
+}
+#cart{
+  align-items: center;
+  display: flex;
+}
+
+.category{
+color: black;
+}
+
+/* .category:hover{
+  color: #E6797E;
+} */
+
+.category a:not(.active):hover{
+  color: #E6797E;
+}
+.active{
+  color: #E6797E;
+
+}
+
+.muselogo{
+  width: 120px;
+  height: auto;
+  height: auto;
+  /* margin-right: 600px ; */
+  /* margin-left: 304px; */
+  margin-top: -14px;
+  /* position: relative; */
+}
+.logo{
+  float: left;
+  margin-left: 70px;
+}
+
+
+a{
+  margin-top: 36px;
+  margin-right: 52px;
+    margin-left: -19px;
+float: right;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color:black;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+form{
+  position:absolute;
+  container: 500px;
+  height: 500px;
+  width: 500px;
+  background-color: #faf9f8;
+  margin: 125px 0px 0px 500px; 
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+input{
+  width:450px;
+  height:30px;
+}
+label{
+  margin: 20px 20px 20px 20px;
+  float: left;
+}
+.submitform{
+height:50px;
+margin: 40px 20px 20px 20px ;
+background-color: black;
+color: white;
+width: 460px;
+}
+.Signin{
+  position: absolute;
+  margin-top: -4px;
+  margin-left: -119px;
+  height: 36px;
+  background-color: black;
+  color: white;
+  width: 124px;
+  border-style: none;
+
+}
+.main{
+  height: 200px;
+  width: 200px ;
+  background-color: red;
+  transition:height 2s, width 2s, 6s;
+}
+.main:hover{
+  width: 400px;
+  height: 400px;
+  transform: rotate(180deg);
+  border-radius: 50%;
+}
+
+
+
+
+
+/* //CAROUSEL  */
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+}
+
+.slide {
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  /* color: white; */
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+
+/* products  */
+
+.fetch:hover{
+  transform: scale(1.1);
+  background-color: antiquewhite;
+}
+
+
+
+
